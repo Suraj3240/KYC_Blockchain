@@ -1,0 +1,133 @@
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #fff;
+  }
+  
+  .page-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .header {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .header h1 {
+    font-size: 32px;
+  }
+  
+  .ocr-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .ocr-form {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .ocr-form h2 {
+    margin-top: 0;
+  }
+  
+  .file-name {
+    margin-bottom: 20px;
+    margin-right: 40px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #666;
+    color: #fff;
+    border: none;
+  }
+  
+  .file-name select {
+    background-color: #666;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    appearance: none;
+    -webkit-appearance: none;
+  }
+  
+  .file-name::after {
+    content: '\25BC';
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+  }
+  
+  .ocr-results {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .ocr-results h2 {
+    margin-top: 0;
+  }
+  
+  .extracted-info .detail {
+    margin: 10px 0;
+  }
+  
+  .extracted-info .detail-label {
+    font-weight: bold;
+  }
+  
+  /* Verification result styles */
+  .verification {
+    text-align: center;
+    margin-top: 30px;
+  }
+  
+  .verification h2 {
+    margin-bottom: 10px;
+  }
+  
+  .verification p {
+    font-weight: bold;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  .successful {
+    background-color: #4CAF50;
+  }
+  
+  .failed {
+    background-color: #F44336;
+  }
+  
+  .pending {
+    background-color: #FFC107;
+  }
+  
+
+  .upload-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .upload-btn:hover {
+    background-color: #218838;
+  }

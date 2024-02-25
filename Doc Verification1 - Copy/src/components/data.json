@@ -1,0 +1,21 @@
+[
+    {
+      "name": "Suraj Shinde",
+      "uid": "8208003372",
+      "address": "o C/O: Babasaheb Shinde Savedi Road Ahmadnagar Maharashtra - 414003",
+      "gender": "° go9/ MALE g"
+    },
+    {
+      "name": "John Doe",
+      "uid": "1234567890",
+      "address": "123 Main St\nAnytown\nState - 12345",
+      "gender": "MALE"
+    },
+    {
+      "name": "Jane Smith",
+      "uid": "0987654321",
+      "address": "456 Elm St\nOthertown\nState - 67890",
+      "gender": "FEMALE"
+    }
+  ]
+  
